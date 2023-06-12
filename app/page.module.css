@@ -1,9 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
 }
 
@@ -226,4 +224,44 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+
+.header {
+  top: 0px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: grey;
+  padding: 2rem;
+}
+
+.headerLogo {
+  height: 5vh;
+}
+
+.appBody {
+  text-align: center;
+  display:  flex;
+  flex-direction:column;
+  margin: 6rem;
+  padding: 2rem;
+  background-color:rgb(62, 23, 99);
+}
+
+.appBody form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appBody form > * {
+  margin: 1rem;
+
+}
+.introField {
+  width: 40ch;
+  height: 8ch;
 }
