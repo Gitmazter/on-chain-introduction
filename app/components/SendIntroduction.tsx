@@ -72,15 +72,11 @@ export const SendIntroduction:FC = () => {
                     <Input id='introName' name='name'  color='gray.400'></Input>
                 </FormControl>
                 <FormControl isRequired>
-                    <FormLabel  color='gray.200'>Your name</FormLabel>
+                    <FormLabel  color='gray.200'>Introduction</FormLabel>
                     <Textarea id='introduction' name='introduction'  color='gray.400'></Textarea>
                 </FormControl>
                 <button type='submit'>Submit Introduction</button>
             </form>
-            <div className={styles.introductions}>
-                <h2>Jenny ({new Date(Date.now()).getDate()}/{new Date(Date.now()).getMonth()}/{new Date(Date.now()).getFullYear()})</h2>
-                <p>Hello I am Jenny, i liek cookis</p>
-            </div>
         </div>
     )
 }

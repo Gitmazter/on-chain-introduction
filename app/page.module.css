@@ -265,3 +265,60 @@
   width: 40ch;
   height: 8ch;
 }
+
+.IntroCard {
+  align-self: center;
+  background-color:rgb(62, 23, 99);
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 60ch;
+
+  height: fit-content;
+}
+.IntroCard h3 {
+  padding-bottom: 1rem;
+}
+
+.IntroCard p {
+  border: 2px black solid;
+  padding: 1rem;
+  width: 40ch;
+}
+.controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.controls input {
+  height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(15, 15, 15);
+  color: orange;
+  border-radius: 40px;
+  border: 2px inset orange;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.buttons button {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: rgb(32, 32, 32);
+  border: 2px inset orange;
+}

@@ -19,6 +19,7 @@
     "@types/react": "18.2.11",
     "@types/react-dom": "18.2.4",
     "borsh": "^0.7.0",
+    "bs58": "^5.0.0",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.5",
     "next": "13.4.5",
